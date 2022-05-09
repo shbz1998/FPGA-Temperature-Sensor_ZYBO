@@ -1,0 +1,39 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.864356",
+   "Default View_TopLeft":"148,-6",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -lvl 5 -x 1230 -y 330 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -lvl 5 -x 1230 -y 360 -defaultsOSRD
+preplace port uart_rtl -pg 1 -lvl 5 -x 1230 -y 70 -defaultsOSRD
+preplace port Pmod_out_0 -pg 1 -lvl 5 -x 1230 -y 210 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 2 -x 410 -y 380 -defaultsOSRD
+preplace inst PmodTMP3_0 -pg 1 -lvl 4 -x 1060 -y 220 -defaultsOSRD
+preplace inst axi_uartlite_0 -pg 1 -lvl 4 -x 1060 -y 80 -defaultsOSRD
+preplace inst ps7_0_axi_periph -pg 1 -lvl 3 -x 770 -y 190 -defaultsOSRD
+preplace inst rst_ps7_0_50M -pg 1 -lvl 2 -x 410 -y 600 -defaultsOSRD
+preplace inst xlconcat_0 -pg 1 -lvl 1 -x 110 -y 390 -defaultsOSRD
+preplace netloc PmodTMP3_0_I2C_Interrupt 1 0 5 10 480 NJ 480 NJ 480 NJ 480 1180
+preplace netloc axi_uartlite_0_interrupt 1 0 5 0 280 NJ 280 600J 330 NJ 330 1190
+preplace netloc processing_system7_0_FCLK_CLK0 1 1 3 200 490 620 50 910
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 1 2 210 500 600
+preplace netloc rst_ps7_0_50M_peripheral_aresetn 1 2 2 610 40 920
+preplace netloc xlconcat_0_dout 1 1 1 N 390
+preplace netloc PmodTMP3_0_Pmod_out 1 4 1 NJ 210
+preplace netloc axi_uartlite_0_UART 1 4 1 NJ 70
+preplace netloc processing_system7_0_DDR 1 2 3 NJ 340 NJ 340 1200J
+preplace netloc processing_system7_0_FIXED_IO 1 2 3 NJ 360 NJ 360 NJ
+preplace netloc processing_system7_0_M_AXI_GP0 1 2 1 630 110n
+preplace netloc ps7_0_axi_periph_M00_AXI 1 3 1 930 60n
+preplace netloc ps7_0_axi_periph_M01_AXI 1 3 1 N 200
+levelinfo -pg 1 -20 110 410 770 1060 1230
+pagesize -pg 1 -db -bbox -sgen -20 0 1360 700
+"
+}
+{
+   "da_axi4_cnt":"2",
+   "da_board_cnt":"1",
+   "da_ps7_cnt":"1"
+}
